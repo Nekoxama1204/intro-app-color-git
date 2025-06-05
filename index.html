@@ -3,34 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selector de Color RGB</title>
+    <title>Imágenes del Tema</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
     <div class="container mt-5">
-        <h1>Selector de Color RGB</h1>
-        <div id="color-box" class="color-box my-3"></div>
-        <p id="hex-code" class="fw-bold"></p>
-        <input type="color" id="color-picker" class="my-3">
-        <div class="controls">
-            <div class="control-group">
-                <label for="red">Rojo:</label>
-                <input type="range" id="red" min="0" max="255" value="0">
-                <input type="number" id="red-input" min="0" max="255" value="0">
+        <h1 class="mb-4">TEMA 1 SEGUNDA OPORTUNIDAD</h1>
+
+        <!-- Sección de Imágenes -->
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <img src="./tema1.jpg" alt="Tema 1" class="img-fluid rounded shadow-sm">
             </div>
-            <div class="control-group">
-                <label for="green">Verde:</label>
-                <input type="range" id="green" min="0" max="255" value="0">
-                <input type="number" id="green-input" min="0" max="255" value="0">
-            </div>
-            <div class="control-group">
-                <label for="blue">Azul:</label>
-                <input type="range" id="blue" min="0" max="255" value="0">
-                <input type="number" id="blue-input" min="0" max="255" value="0">
+            <div class="col-md-6 mb-4">
+                <img src="./tema2.jpg" alt="Tema 2" class="img-fluid rounded shadow-sm">
             </div>
         </div>
     </div>
+
     <script src="./js/main.js"></script>
 </body>
 </html>
